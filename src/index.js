@@ -72,12 +72,13 @@ function inlineBundleToReact(bundle, key) {
 type Props = {
   children?: React$Element<any>,
   className?: string,
-  linkify?: boolean
+  linkify?: boolean,
+  elementType?: string
 };
 
 function Ansi(props: Props) {
   return React.createElement(
-    'code',
+    (props.elementType || 'code'),
     {className: props.className},
     props.linkify
       ? ansiToInlineStyle(props.children)
