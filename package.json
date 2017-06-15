@@ -1,5 +1,5 @@
 {
-  "name": "ansi-to-react",
+  "name": "ansi-to-react-with-options",
   "version": "1.4.2",
   "description": "ANSI to React Elements",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nteract/ansi-to-react.git"
+    "url": "git+https://github.com/jamesmcintyre/ansi-to-react.git"
   },
   "keywords": [
     "ansi",
